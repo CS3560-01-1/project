@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5de3b234-391c-4953-bf84-72374c154b10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project/com/group1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/com/group1/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/group1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/group1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +128,7 @@
       <option name="presentableId" value="Default" />
       <updated>1633581234014</updated>
       <workItem from="1633581236408" duration="58000" />
-      <workItem from="1633592229969" duration="3828000" />
+      <workItem from="1633592229969" duration="4582000" />
     </task>
     <servers />
   </component>

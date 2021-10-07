@@ -5,5 +5,7 @@ public class Main {
     {
         System.out.println("Group Assignment #2");
         System.out.println("Project Skeleton");
+        System.out.println();
+
     }
 }
