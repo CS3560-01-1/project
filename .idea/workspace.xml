@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="5de3b234-391c-4953-bf84-72374c154b10" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/group1/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/group1/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/group1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/group1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/group1/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/group1/MenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/group1/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/group1/Order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +132,7 @@
       <updated>1633581234014</updated>
       <workItem from="1633581236408" duration="58000" />
       <workItem from="1633592229969" duration="4582000" />
+      <workItem from="1633764675974" duration="3095000" />
     </task>
     <servers />
   </component>
@@ -145,5 +149,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

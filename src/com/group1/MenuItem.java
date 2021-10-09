@@ -1,17 +1,24 @@
 package com.group1;
 
 public class MenuItem {
-    private String foodItemID;
-    private String drinkItemID;
+    private String itemID;
     private double price;
     private int quantity;
 
-    // Getter
-    public String getFoodItemID() {
-        return foodItemID;
+    // Constructor
+    public MenuItem(){}
+
+    // Constructor for entering the item information
+    public MenuItem(String itemID, double price, int quantity)
+    {
+        this.itemID = itemID;
+        this.price = price;
+        this.quantity = quantity;
     }
-    public String getDrinkItemID(){
-        return drinkItemID;
+
+    // Getter
+    public String getItemID() {
+        return itemID;
     }
     public double getPrice(){
         return price;
@@ -21,11 +28,8 @@ public class MenuItem {
     }
 
     // Setter
-    public void setFoodItemID(String foodItemID) {
-        this.foodItemID = foodItemID;
-    }
-    public void setDrinkItemID(String drinkItemID){
-        this.drinkItemID = drinkItemID;
+    public void setItemID(String itemID) {
+        this.itemID = itemID;
     }
     public void setPrice(double price){
         this.price = price;
@@ -36,11 +40,11 @@ public class MenuItem {
 
     // display the main page(restaurant info and menu button)
     public void displayMainPage() {
-        ;
+        System.out.println("Main Page");
     }
 
     // display menu item
     public void displayMenu(){
-        ;
+        System.out.println("Menu");
     }
 }

@@ -5,8 +5,20 @@ import java.util.Date;
 public class Order {
     private String orderID;
     private Date orderDate;
-    //private double totalAmount;
+    private double totalAmount;
     private String deliveryStatus;
+
+    // Constructor
+    public Order(){}
+
+    // Constructor for entering the Order information
+    public Order(String orderID, Date orderDate, double totalAmount, String deliveryStatus)
+    {
+        this.orderID = orderID;
+        this.orderDate = orderDate;
+        this.totalAmount = totalAmount;
+        this.deliveryStatus = deliveryStatus;
+    }
 
     // Getter
     public String getOrderID() {
@@ -15,9 +27,9 @@ public class Order {
     public Date getOrderDate() {
         return orderDate;
     }
-//    public double getTotalAmount() {
-//        return totalAmount;
-//    }
+    public double getTotalAmount() {
+        return totalAmount;
+    }
     public String getDeliveryStatus() {
         return deliveryStatus;
     }
@@ -29,30 +41,21 @@ public class Order {
     public void setOrderDate(Date orderDate) {
         this.orderDate = orderDate;
     }
-//    public void setTotalAmount(double totalAmount) {
-//        this.totalAmount = totalAmount;
-//    }
+    public void setTotalAmount(double totalAmount) {
+        this.totalAmount = totalAmount;
+    }
     public void setDeliveryStatus(String deliveryStatus) {
         this.deliveryStatus = deliveryStatus;
     }
 
-    // Customer adds the item to the cart. then it will return the subtotal of all items added to cart
-    public double addToCart(String item){
-        double subTotal = 0;
-        return subTotal;
-    }
-
-
-    // Customer check out, return the total price
-    public double placeOrder(){
-        double totalPrice = 0;
-        return totalPrice;
+    // lookup the specific order details by providing the orderID, return true if the orderID is valid
+    public boolean lookUpDetail(String orderID){
+        System.out.println("Order Details");
+        return true;
     }
 
     // Print receipt
     public void printReceipt(){
-        ;
+        System.out.println("Receipt");
     }
-
-
 }
